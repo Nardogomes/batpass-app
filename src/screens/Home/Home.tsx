@@ -1,14 +1,16 @@
 import React from "react"
-import { View, Text } from "react-native"
+import { StatusBar } from "expo-status-bar"
+import { View } from "react-native"
 import { styles } from "./Style"
 import { BatLogo } from "../../components/BatLogo/BatLogo"
 
 export function Home() {
   return (
-    <View style={styles.container}>
-      <View>
+    <View style={styles.appContainer}>
+      <View style={styles.logoContainer}>
         <BatLogo />
       </View>
+      <StatusBar style="auto" />
     </View>
   )
 }
