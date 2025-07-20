@@ -1,12 +1,14 @@
 import React from "react"
-import { Text, View } from "react-native"
+import { View, Text } from "react-native"
 import { styles } from "./Style"
-import { Menu } from "../../components/Menu/Menu"
+import { BatLogo } from "../../components/BatLogo/BatLogo"
 
 export function Home() {
   return (
     <View style={styles.container}>
-      <Menu />
+      <View>
+        <BatLogo />
+      </View>
     </View>
   )
 }
