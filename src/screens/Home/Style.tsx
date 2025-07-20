@@ -1,14 +1,18 @@
 import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
-  container: {
+  appContainer: {
     flex: 1,
     backgroundColor: '#5e5d5d',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
-    color: '#fff',
-    fontSize: 24
+  logoContainer: {
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 60,
+    paddingTop: 20,
+    paddingBottom: 10
   }
 })
