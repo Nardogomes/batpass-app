@@ -11,8 +11,13 @@ export const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 60,
+    marginBottom: 50,
     paddingTop: 20,
     paddingBottom: 10
+  },
+  inputContainer: {
+    width: '80%',
+    flexDirection: 'column',
+    alignItems: 'center'
   }
 })
