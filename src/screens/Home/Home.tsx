@@ -3,7 +3,6 @@ import { StatusBar } from "expo-status-bar"
 import { View } from "react-native"
 import { styles } from "./Style"
 import { BatLogo } from "../../components/BatLogo/BatLogo"
-import { TextInputField } from "../../components/TextInput/TextInputField"
 import { ButtonElement } from "../../components/ButtonElement/ButtonElement"
 
 export function Home() {
@@ -14,10 +13,6 @@ export function Home() {
       </View>
 
       <View style={styles.inputContainer}>
-        <TextInputField />
-      </View>
-
-      <View>
         <ButtonElement />
       </View>
 
